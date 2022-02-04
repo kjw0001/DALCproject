@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>주류 조합 추천</title>
+	
+	<!-- 폰트 적용 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/default.css">
+	<link rel="stylesheet" href="./css/main.css">
+	</head>
+
+	<body>
+		<div class="container align-items-center">
+			<section id="main">
+				<h3>Q2. 어떤 맛으로 즐기고 싶나요?</h3>
+					<form method="post" action="action.html">
+						<input type="checkbox" name="q2" value="fruit">   과일향(상큼, 달콤)
+						<br>
+						<input type="checkbox" name="q2" value="alcohol">   알콜향 물씬~
+						<br><br>
+					</form>
+				<section id="btnplace" class="pt-5">
+					<button type="button" class="btn btn-danger mt-5" style="float:left" onClick="location.href='question1.html'">&#60; prev</button>
+					<button type="button" class="btn btn-danger mt-5" style="float:right" onClick="location.href='question3.html'">next &#62;</button>
+				</section>
+			</section>
+		</div>
+	</body>
+</html>

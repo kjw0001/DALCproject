@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>주류 조합 추천</title>
+	
+	<!-- 폰트 적용 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/default.css">
+	<link rel="stylesheet" href="./css/main.css">
+	</head>
+
+	<body>
+		<div class="container align-items-center">
+			<section id="main">
+				<h3>Q5. 어떤 상황에서 술을 마시고 있나요?</h3>
+				<form method="post" action="action.html">
+					<input type="checkbox" name="q5" value="friend">   친구들과 술을 마음껏 마시고 싶어요
+					<br>
+					<input type="checkbox" name="q5" value="luxury">   분위기 좋은 곳에서 고급스럽게 먹고 싶어요
+					<br>
+					<input type="checkbox" name="q5" value="sad">   '말리지마' 슬플 때 먹고 싶어요
+					<br>
+					<input type="checkbox" name="q5" value="lightly">   가볍게 한 잔 할 때
+					<br>
+					<input type="checkbox" name="q5" value="alone">   혼자 먹고 싶어요
+					<br><br>
+				</form>
+				<section id="btnplace" class="pt-5">
+					<button type="button" class="btn btn-danger mt-5" style="float:left" onClick="location.href='question4.html'">&#60; prev</button>
+					<button type="button" class="btn btn-danger mt-5" style="float:right" onClick="location.href='result.html'">next &#62;</button>
+				</section>
+			</section>
+		</div>
+	</body>
+</html>
